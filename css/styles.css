@@ -1,0 +1,66 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* =================== COMPONENTS ======================= */
+.modal-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    cursor: pointer; /*added to transfor it from the arrow to the pointer as in the design project on the first left template in Figma */
+
+/* color: #FFFFFF; */
+}
+
+/*Look at the button modes on the left in Figma */
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: #FF6C00; 
+    color: #ffffff;
+}
+
+
+/* =================== /COMPONENTS ======================= */
+
+
+/* =================== HEADER ======================= */
+.menu-link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33
+    letter-spacing: 0.1em;
+/* color: #FFFFFF; */
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #FF6C00;  
+}
+
+.contact-phone-number {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    /* color: #FFFFFF; */;
+}
+
+/* Added by us because the user should understand that this link is also interactive like the navigation */
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: #FF6C00;  
+}
+
+/* ================== HERO ======================= */
+
+
+
